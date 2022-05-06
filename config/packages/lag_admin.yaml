@@ -1,0 +1,5 @@
+lag_admin: ~
+
+twig:
+    globals:
+        admin_translation_domain: admin

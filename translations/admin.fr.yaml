@@ -1,0 +1,8 @@
+lag_admin:
+    menu:
+        project: Projets
+
+    project:
+        create: Créer un projet
+        id: '#'
+        name: Nom du projet

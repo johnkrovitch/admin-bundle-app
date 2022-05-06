@@ -1,3 +1,5 @@
+admin-bundle
+docker/mysql
 
 ###> symfony/framework-bundle ###
 /.env.local
