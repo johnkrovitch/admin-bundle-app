@@ -23,7 +23,7 @@ RUN docker-php-ext-install zip pdo pdo_mysql;
 RUN docker-php-ext-configure zip pdo pdo_mysql; \
     docker-php-ext-enable zip pdo pdo_mysql
 
-COPY --from=composer:2.3 /usr/bin/composer /usr/bin/composer
+COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 # https://getcomposer.org/doc/03-cli.md#composer-allow-superuser
 ENV COMPOSER_ALLOW_SUPERUSER=1
 
