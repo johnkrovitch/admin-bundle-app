@@ -3,8 +3,10 @@
 namespace App\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use LAG\AdminBundle\Metadata\AdminResource;
 
 #[ORM\Entity]
+#[AdminResource]
 class Project
 {
     #[ORM\Id]

@@ -1,6 +1,8 @@
 lag_admin:
     menu:
-        project: Projets
+        articles: Articles
+        categories: Catégories
+        projects: Projets
 
     project:
         create: Créer un projet
